@@ -13,6 +13,8 @@ body{
 nav {
     display: flex;
     justify-content:space-between;
+    align-items: center;
+    margin-bottom: 50px;
 
 }
 nav> ul{
@@ -23,8 +25,12 @@ nav> ul{
 nav li{
     list-style-type: none;
 }
+.hamburger{
+    display: none;
+}
 .orange {
     color:  #FF5400;
+    
 }
 .heading{
     display: flex;
@@ -33,6 +39,13 @@ nav li{
     align-items: center;
 }.btn-primary{
     background-color: #FF5400;
+    width: 174px;
+    height: 55px;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    
+    
 
 }
 .banner{
@@ -87,7 +100,8 @@ form>button{
     background: #FFF;
     color:rgba(19, 19, 24, 0.5);
     margin-right: 24px;
-    padding-left: 16px ;    
+    padding-left: 16px ;   
+     
 }
 .where{
     width: 174px;
@@ -99,6 +113,75 @@ form>button{
     margin-right: 24px;
     padding-left: 16px;
 }
+.section-1{
+    display: flex;
+    margin-top:100px;
+    gap: 100px;
+    
+}
+#read{
+    margin-top:20px ;
+}
+
+@media screen and (max-width:600px) {
+    .nav-bar{
+        display: none;  
+        
+    }
+    body{
+        padding:30px;
+    }
+    .hamburger{
+        padding: 15px;
+        display:list-item;
+    }
+    .banner{
+        
+        height: 483px;
+       
+
+    }
+    .content>h1{
+        font-size:30px;
+
+    }
+    .content{
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    form>button{
+        width: 355px;
+        margin:auto
+
+    }
+    .when {
+        width:355px;
+       
+       margin: auto;
+       margin-bottom: 10px;
+    }
+    .where {
+        width:355px;
+        margin: auto ;
+        
+       margin-bottom: 10px;}
+       
+    .after-when {
+        width:355px;
+        margin: auto;
+        
+       margin-bottom: 10px;
+    }
+    form{
+        justify-content: center;
+        padding: 15px;
+    }
+    
+}  
+
+
 
 
 
