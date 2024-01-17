@@ -116,12 +116,34 @@ form>button{
 .section-1{
     display: flex;
     margin-top:100px;
-    gap: 100px;
+    gap: 100px;  
+    margin-bottom: 100px; 
+}
+
+.list{
+    margin:20px
+}
+
+.section-2{
+    justify-content: center;
+    text-align: center;
+}
+.section-2>p{
+   max-width:640px;
+   margin: 0 auto;
+}
+.row-1,  .row-2, .row-3{
+    display: flex;
+    gap:24px;
+    padding-top: 24px;
     
 }
-#read{
-    margin-top:20px ;
-}
+/* .row-1{
+    display: flex;
+    gap:24px;
+    padding-top: 24px;
+} */
+
 
 @media screen and (max-width:600px) {
     .nav-bar{
@@ -177,6 +199,9 @@ form>button{
     form{
         justify-content: center;
         padding: 15px;
+    }
+    .section-1{
+        flex-direction: column;
     }
     
 }  
