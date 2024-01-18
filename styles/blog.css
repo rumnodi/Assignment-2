@@ -307,6 +307,46 @@ footer{
     height: 502px;
     padding:200px;
 }
+.section-5>h2{
+    text-align: center;}
+.section-5>p{
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+
+
+}
+.tales{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+} 
+.maria{
+    width: 500px;
+    height: 400px;
+    border-radius: 16px;
+
+}  
+.susana{
+    width: 500px;
+    height: 400px;
+    border-radius: 16px;
+
+}
+.first-tale{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 30px;
+
+}
+.second-tale{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 30px;
+
+}
 
 
 
@@ -438,10 +478,13 @@ footer{
         height: 400px;
         
     }
+    
+
+    }
 
 
     
-}  
+
 
 
 
