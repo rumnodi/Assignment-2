@@ -44,9 +44,6 @@ nav li{
     border: 0;
     border-radius: 8px;
     color: #FFF;
-    
-    
-
 }
 .banner{
     height: 500px;
@@ -138,7 +135,6 @@ form>button{
     display: flex;
     gap:24px;
     padding-top: 24px;
-
     
 }
 .section-3{
@@ -201,9 +197,7 @@ height: 200px;
     width: 393px;
     height: 52px;
     margin-bottom: 10px;
-    padding-left: 10px;
-   
-    
+    padding-left: 10px;    
     
 }
 .news-button{
@@ -252,7 +246,6 @@ background: #FF5400;
 border: 0;
 position: relative;
 top: 250px; 
-
 left: 295px;}
 
 
@@ -313,8 +306,6 @@ footer{
     text-align: center;
     width: 640px;
     margin: 0 auto;
-
-
 }
 .tales{
     display: flex;
@@ -347,11 +338,6 @@ footer{
     padding: 30px;
 
 }
-
-
-
-    
-
 
 @media screen and (max-width:600px) {
     .nav-bar{
@@ -478,9 +464,21 @@ footer{
         height: 400px;
         
     }
-    
-
+    .tales{
+        flex-direction: column;
+        margin: 30px auto;
     }
+    .section-5>p{
+        text-align: center;
+        width: 400px;
+    }
+    .maria{
+        width:400px;
+    }
+    .susana{
+        width:400px;
+    }
+}
 
 
     
